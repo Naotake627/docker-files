@@ -1,0 +1,44 @@
+current directory: /Users/Naotake627/Desktop/docker-files/vendor/bundle/gems/mysql2-0.4.10/ext/mysql2
+/Users/Naotake627/.rbenv/versions/3.1.2/bin/ruby -I /Users/Naotake627/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20230709-498-cg16tg.rb extconf.rb
+checking for rb_absint_size()... no
+checking for rb_absint_singlebit_p()... no
+checking for ruby/thread.h... yes
+checking for rb_thread_call_without_gvl() in ruby/thread.h... no
+checking for rb_thread_blocking_region()... no
+checking for rb_wait_for_single_fd()... no
+checking for rb_hash_dup()... no
+checking for rb_intern3()... no
+checking for rb_big_cmp()... no
+-----
+Using mysql_config at /opt/homebrew/bin/mysql_config
+-----
+checking for mysql.h... yes
+checking for errmsg.h... yes
+checking for SSL_MODE_DISABLED in mysql.h... yes
+checking for SSL_MODE_PREFERRED in mysql.h... yes
+checking for SSL_MODE_REQUIRED in mysql.h... yes
+checking for SSL_MODE_VERIFY_CA in mysql.h... yes
+checking for SSL_MODE_VERIFY_IDENTITY in mysql.h... yes
+checking for MYSQL.net.vio in mysql.h... yes
+checking for MYSQL.net.pvio in mysql.h... no
+checking for MYSQL_ENABLE_CLEARTEXT_PLUGIN in mysql.h... yes
+-----
+Setting rpath to /opt/homebrew/Cellar/mysql/8.0.30/lib
+-----
+creating Makefile
+
+current directory: /Users/Naotake627/Desktop/docker-files/vendor/bundle/gems/mysql2-0.4.10/ext/mysql2
+make DESTDIR\= clean
+
+current directory: /Users/Naotake627/Desktop/docker-files/vendor/bundle/gems/mysql2-0.4.10/ext/mysql2
+make DESTDIR\=
+compiling client.c
+In file included from client.c:1:
+In file included from ./mysql2_ext.h:35:
+./client.h:18:10: fatal error: 'rubysig.h' file not found
+#include <rubysig.h>
+         ^~~~~~~~~~~
+1 error generated.
+make: *** [client.o] Error 1
+
+make failed, exit code 2

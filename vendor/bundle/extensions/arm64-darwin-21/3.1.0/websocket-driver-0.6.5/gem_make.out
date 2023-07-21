@@ -1,0 +1,16 @@
+current directory: /Users/Naotake627/Desktop/docker-files/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/Naotake627/.rbenv/versions/3.1.2/bin/ruby -I /Users/Naotake627/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20230709-93277-yxs3gg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Naotake627/Desktop/docker-files/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/Naotake627/Desktop/docker-files/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: ignoring file /Users/Naotake627/.rbenv/versions/3.1.2/lib/libruby.3.1.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+
+current directory: /Users/Naotake627/Desktop/docker-files/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20230709-93277-30hnf7
